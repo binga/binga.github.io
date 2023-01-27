@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Phani Srikanth"
+  description: "Phani's personal website"
+  twitter-card:
+    creator: "@phanisrikanth33"
+    card-style: summary_large_image
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right:
+      - icon: twitter
+      - href: https://twitter.com/phanisrikanth33
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
