@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Phani Srikanth"
@@ -9,16 +10,32 @@ website:
     card-style: summary_large_image
   navbar:
     left:
-      - href: index.qmd
+      - icon: house
+        href: index.qmd
         text: Home
-      - about.qmd
+      - icon: file-person
+        href: about.qmd
+        text: About
+      - icon: megaphone
+        href: recommendations.qmd
+        text: Recommendations
     right:
       - icon: twitter
-      - href: https://twitter.com/phanisrikanth33
+        href: https://twitter.com/phanisrikanth33
+      - icon: github
+        href: https://github.com/binga/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/phanisrikanth/
+      - icon: medium
+        href: https://medium.com/@phanisrikanth33
+      - icon: envelope
+        href: mailto:phanisrikanth33@gmail.com
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: slate
     css: styles.css
     toc: true
 
