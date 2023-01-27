@@ -5,6 +5,9 @@ project:
 website:
   title: "Phani Srikanth"
   description: "Phani's personal website"
+  repo-url: https://github.com/binga/binga.github.io
+  repo-actions: [edit, issue]
+  open-graph: true
   twitter-card:
     creator: "@phanisrikanth33"
     card-style: summary_large_image
