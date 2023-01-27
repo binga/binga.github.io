@@ -3,7 +3,7 @@ title: "Recommendations"
 listing:
   contents: recommendations
   sort: "date desc"
-  type: grid
+  type: default
   categories: true
   sort-ui: true
   filter-ui: true
