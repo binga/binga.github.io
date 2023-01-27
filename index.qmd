@@ -1,7 +1,18 @@
 ---
-title: "binga.github.io"
+title: "Welcome to my home!"
+comments: False
+format: 
+    html: 
+        page-layout: full
 ---
 
-This is a Quarto website.
+I curretly live in United States and I am from India.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+- 🔭 I’m currently working on helping my teammates succeed in protecting users from malicious file-based and web-based attacks using Machine Learning at Microsoft.
+- 🌱 I’m learning how to lead great teams!
+- 💬 Ask me about Data Science / Building Career Paths / Storytelling / Interesting People on Internet / Systems Thinking.
+- 📫 How to reach me: Twitter / LinkedIn / Microsoft
+- 😄 Pronouns: He/Him.
+- ⚡ Fun fact: I never uttered a word until I turned 3.
+
+Read more about me [here](about.qmd).
