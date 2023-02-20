@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Phani Srikanth">
-<meta name="dcterms.date" content="2016-12-16">
+<meta name="dcterms.date" content="2017-03-30">
 
-<title>Phani Srikanth - Winning the HackerEarth Machine Learning challenge</title>
+<title>Phani Srikanth - Winning two Machine Learning Challenges in the same month</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,11 +65,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Phani Srikanth - Winning the HackerEarth Machine Learning challenge">
-<meta property="og:description" content="Societe Generale, one of the largest banks in France, in collaboration with HackerEarth, organised Brainwaves, the annual hackathon at Bengaluru on November 12–13, 2016.">
+<meta property="og:title" content="Phani Srikanth - Winning two Machine Learning Challenges in the same month">
+<meta property="og:description" content="February 2017 has been a really good month since I have had an opportunity to work on multiple machine learning challenges, hosted by Analytics Vidhya, and came out winning both of them.">
 <meta property="og:site-name" content="Phani Srikanth">
-<meta name="twitter:title" content="Phani Srikanth - Winning the HackerEarth Machine Learning challenge">
-<meta name="twitter:description" content="Societe Generale, one of the largest banks in France, in collaboration with HackerEarth, organised Brainwaves, the annual hackathon at Bengaluru on November 12–13, 2016.">
+<meta name="twitter:title" content="Phani Srikanth - Winning two Machine Learning Challenges in the same month">
+<meta name="twitter:description" content="February 2017 has been a really good month since I have had an opportunity to work on multiple machine learning challenges, hosted by Analytics Vidhya, and came out winning both of them.">
 <meta name="twitter:creator" content="@phanisrikanth33">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -147,17 +147,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#brief-approach" id="toc-brief-approach" class="nav-link active" data-scroll-target="#brief-approach">Brief Approach</a></li>
-  <li><a href="#experiences-at-the-hackathon" id="toc-experiences-at-the-hackathon" class="nav-link" data-scroll-target="#experiences-at-the-hackathon">Experiences at the hackathon</a></li>
+  <li><a href="#what-didnt-work" id="toc-what-didnt-work" class="nav-link active" data-scroll-target="#what-didnt-work">What didn’t work</a></li>
+  <li><a href="#what-worked" id="toc-what-worked" class="nav-link" data-scroll-target="#what-worked">What worked</a></li>
+  <li><a href="#mlware-2-recommendation-challenge" id="toc-mlware-2-recommendation-challenge" class="nav-link" data-scroll-target="#mlware-2-recommendation-challenge">MLWare 2— Recommendation Challenge</a>
+  <ul class="collapse">
+  <li><a href="#what-didnt-work-1" id="toc-what-didnt-work-1" class="nav-link" data-scroll-target="#what-didnt-work-1">What didn’t work</a></li>
+  <li><a href="#what-worked-1" id="toc-what-worked-1" class="nav-link" data-scroll-target="#what-worked-1">What worked</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/binga/binga.github.io/edit/main/posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/binga/binga.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/binga/binga.github.io/edit/main/posts/2017-03-30-Winning_Two_ML_Challenges/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/binga/binga.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Winning the HackerEarth Machine Learning challenge</h1>
+<h1 class="title">Winning two Machine Learning Challenges in the same month</h1>
   <div class="quarto-categories">
     <div class="quarto-category">data science</div>
     <div class="quarto-category">competitions</div>
@@ -180,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 16, 2016</p>
+      <p class="date">March 30, 2017</p>
     </div>
   </div>
     
@@ -189,22 +194,49 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Societe Generale, one of the largest banks in France, in collaboration with HackerEarth, organised Brainwaves, the annual hackathon at Bengaluru on November 12–13, 2016. The theme of the hackathon this year was “Machine Learning”. The hackathon had an online qualifier from where 85 top teams out of 2200 registrations from all over India, were selected for the final round. The final round was a 30-hour long hackathon which needed the teams to solve 1 problem out of 3 given problems spanning across transaction fraud detection, image and text analytics. I decided to solve the former since I have had experience working with banking data in multiple firms I have previously worked with.</p>
-<section id="brief-approach" class="level2">
-<h2 class="anchored" data-anchor-id="brief-approach">Brief Approach</h2>
-<p>For the first problem, we were given millions of historical transactions to find patterns from and use these patterns to find anomalies on future transactions. We quickly skimmed through the data and built our machine learning model to predict the fraud on future transactional data and ranked #1 on the leaderboard. Eventually, we also built dashboards which can be used for proactive real-time monitoring for detection of any kind of new anomalies, or they can also be used to monitor transaction throughput etc. You could think of it like a one stop control centre with a global view of what’s going through the system. One commonly known fraudulent behaviour is, fraudsters try to exploit the system by doing high number of small debits and one large credit, thus swindling the money across countries and exchanges and hence trying to circumvent the defences of the system. This particular kind was quite challenging to incorporate into our machine learning model on and we are glad to have solved it to a good extent in 30 hours. Eventually, we had a good dashboard, a very good model and made an excellent pitch to the jury and ranked 1st amongst 85 teams.</p>
+<p>February 2017 has been a really good month since I have had an opportunity to work on multiple machine learning challenges, hosted by Analytics Vidhya, and came out winning both of them. I wanted to share my experiences of participating in these challenges.</p>
+<p>Analytics Roadshow MiniHack The first of these challenges was a mini-hack in which participants had three hours of time to build the most accurate predictive model that predicts surge pricing type for a taxi aggregator so that the matchmaking between the right cabs and right customers is quick and efficient.</p>
+<p>After a quick exploration of data, I encoded the Gender, Type of Cab and Confidence Life Style Index to numerical values so that tree models could consume the data. A 3-hour challenge doesn’t give you too much room to start with feature engineering. Hence, I directly jumped to building models to quickly test what works and what doesn’t. Linear models and Random forests produced around 0.63 and 0.68 on both cross-validation and leaderboard respectively. However, these stood around top 30th percentile. XGBoost, once again outperformed other models and it put me one among top 5 on leaderboard within an hour of the challenge. However, it was difficult to make any improvements to this.</p>
+<section id="what-didnt-work" class="level3">
+<h3 class="anchored" data-anchor-id="what-didnt-work">What didn’t work</h3>
+<p>2-way variable interactions especially between var1, var2, var3 didn’t improve the score. Feature selection didn’t add any value. Ensembling RFs with XGBs produced no good effect. In a lot of ways, I was stuck for a long time. 30 minutes to finish line. I dropped to 15th position among 170 participants.</p>
 </section>
-<section id="experiences-at-the-hackathon" class="level2">
-<h2 class="anchored" data-anchor-id="experiences-at-the-hackathon">Experiences at the hackathon</h2>
-<p>The hackathon was very well organised in terms of the quality of problem statements in the online and offline rounds, the way the organising team responded to any queries. It was genuinely surprising to see many mentors walking down to our table, talking to us about our backgrounds and providing us various domain related insights which augmented our model and resulted in higher performance. Even during the late hours none of them really left the place, they would always come and check if we were stalled anywhere and help us directionally so that we make constant progress. Having participated in a lot of hackathons prior to this one, I am very surprised by the energy levels of the mentors at Societe Generale.</p>
-<p>To conclude, I would like to thank HackerEarth, Societe Generale, mentors and most importantly Phani Srinath and Supreeth Manyam for their fantastic work during the weekend. Great work guys! If not for any of the above, I am sure that weekend wouldn’t have been so memorable.</p>
-<p>And yes… we partied long and hard that night! :-)</p>
-<p><img src="1.webp"> <img src="2.webp"> <img src="3.webp"></p>
-<p>Our team with the amazing mentors and Societe Generale India CEO</p>
-<p>Top 3 teams pose for the customary picture. Overall, November 2016 has been a great month since Supreeth Manyam and I have also ended up winning another machine learning contest on CrowdAnalytix. We participated with the moniker Popeye For Olive!</p>
-<p>That’s it for now. Stay tuned…</p>
+<section id="what-worked" class="level3">
+<h3 class="anchored" data-anchor-id="what-worked">What worked</h3>
+<p>As ensembling wasn’t working, I focused on improving my XGB model. I changed the min_child_weight parameter and voila! my score shot up. I was totally underfitting all the time, damn. I went up by 8 places. 15 minutes to go, I quickly lowered my learning_rate, my cross-validation score went up and it scored 2nd on LB! Falling short of time, I couldn’t add any other model. I was sure I didn’t overfit and I was delighted to see that my model was one of the most stable models on public and private and I scored 1st on private leaderboard.</p>
+<p>Maybe, it ain’t over until it’s over.</p>
+<p>Ref: https://datahack.analyticsvidhya.com/contest/minihack-machine-learning/lb</p>
+<p>Source code here: https://github.com/binga/AnalyticsVidhya_Minihack</p>
+<p>2 weekends later..</p>
+</section>
+<section id="mlware-2-recommendation-challenge" class="level1">
+<h1>MLWare 2— Recommendation Challenge</h1>
+<p>This challenge was about building a model that predicts a given user’s ratings (from 0 to 10 stars) for a given item based on past ratings on other items and/or other information. The dataset approximately had one million data points and contained information about 40000 users, 120 items and the distribution of ratings was good enough to build a good recommendation engine.</p>
+<p><img src="1.webp"></p>
+<p>As we were only given user_id, item_id and rating, there was no scope for feature engineering in this challenge. The data contained about a million data points and hence I split the entire dataset into a train and a validation set without any cross-validation loops. I started off with a collaborative filtering model in Python and a single CF model with 50 factors scored in the top 20%ile on leaderboard. Increasing or decreasing number of latent factors wasn’t contributing to an increase in score. However, ensembling 5 same kind of CF models with different random seed gave a significant boost, almost up to 3% and this model put me 2nd on the leaderboard, at the end of day one (in a 3-day challenge).</p>
+<p>Up next, I built a few LightGBM models to ensemble with the CF model. I used user-user features, user-item features like number of items rated by each user, {mean, median, max, min} rating by each user and all these features helped the LightGBM generalize well.</p>
+<section id="what-didnt-work-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-didnt-work-1">What didn’t work</h3>
+<ul>
+<li>XGBoost with the same features gave worser scores than LightGBM.</li>
+<li>Addition of item-item features didn’t contribute to the overall score.</li>
+<li>Neural network based collaborative filtering didn’t help improve the score.</li>
+</ul>
+</section>
+<section id="what-worked-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-worked-1">What worked</h3>
+<ul>
+<li>Simple CF models and blended average.</li>
+<li>GBM models with user-item features.</li>
+</ul>
+<p>With a weighted ensemble of CF model and LightGBM model, my model was good enough for a 2nd position on the leaderboard. On day 3 of the challenge, Rohan Rao who was 3rd on the leaderboard and I decided to team up. Rohan had multiple SVD models and a XGBoost stacker as his best model. This model’s score was close enough to my score but when we teamed up, our submissions correlation was 0.91 which was the most interesting thing. Immediately, we knew an average of both of our best models was going to do well and when we submitted this model, we zoomed to #1 position on the leaderboard. We tried a few things during the last hours of the competition but couldn’t improve the score.</p>
+<p>In the end, we were glad to have maintained enough lead to remain #1 on the private leaderboard. Reference: https://datahack.analyticsvidhya.com/contest/mlware-2/lb</p>
+<p>This marked the end of a good month where I ended up winning both the challenges I have taken part in. This is my 4th consecutive win in a hackathon. As I have lost one yesterday on HackerEarth, my good streak has finally come to an end and I decided to write down about the previous ones.</p>
+<p>Well, that’s it for today and I’m looking forward to do some more interesting and exciting work in the coming months.</p>
+<p>Cheers!</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
