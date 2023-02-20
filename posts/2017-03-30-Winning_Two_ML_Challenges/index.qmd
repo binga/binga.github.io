@@ -2,13 +2,14 @@
 title: 'Winning two Machine Learning Challenges in the same month'
 author: "Phani Srikanth"
 date: "2017-03-30"
-categories: [data science, competitions, machine learning, hackathons]
+categories: [Data Science, Competitions, Hackathons, Machine Learning, Analytics Vidhya, 2017]
 ---
 
 
 February 2017 has been a really good month since I have had an opportunity to work on multiple machine learning challenges, hosted by Analytics Vidhya, and came out winning both of them. I wanted to share my experiences of participating in these challenges.
 
-Analytics Roadshow MiniHack
+## Analytics Roadshow MiniHack
+
 The first of these challenges was a mini-hack in which participants had three hours of time to build the most accurate predictive model that predicts surge pricing type for a taxi aggregator so that the matchmaking between the right cabs and right customers is quick and efficient.
 
 After a quick exploration of data, I encoded the Gender, Type of Cab and Confidence Life Style Index to numerical values so that tree models could consume the data. A 3-hour challenge doesn’t give you too much room to start with feature engineering. Hence, I directly jumped to building models to quickly test what works and what doesn’t. Linear models and Random forests produced around 0.63 and 0.68 on both cross-validation and leaderboard respectively. However, these stood around top 30th percentile. XGBoost, once again outperformed other models and it put me one among top 5 on leaderboard within an hour of the challenge. However, it was difficult to make any improvements to this.

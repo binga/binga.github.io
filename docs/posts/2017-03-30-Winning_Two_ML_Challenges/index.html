@@ -147,8 +147,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-didnt-work" id="toc-what-didnt-work" class="nav-link active" data-scroll-target="#what-didnt-work">What didn’t work</a></li>
+  <li><a href="#analytics-roadshow-minihack" id="toc-analytics-roadshow-minihack" class="nav-link active" data-scroll-target="#analytics-roadshow-minihack">Analytics Roadshow MiniHack</a>
+  <ul class="collapse">
+  <li><a href="#what-didnt-work" id="toc-what-didnt-work" class="nav-link" data-scroll-target="#what-didnt-work">What didn’t work</a></li>
   <li><a href="#what-worked" id="toc-what-worked" class="nav-link" data-scroll-target="#what-worked">What worked</a></li>
+  </ul></li>
   <li><a href="#mlware-2-recommendation-challenge" id="toc-mlware-2-recommendation-challenge" class="nav-link" data-scroll-target="#mlware-2-recommendation-challenge">MLWare 2— Recommendation Challenge</a>
   <ul class="collapse">
   <li><a href="#what-didnt-work-1" id="toc-what-didnt-work-1" class="nav-link" data-scroll-target="#what-didnt-work-1">What didn’t work</a></li>
@@ -164,10 +167,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Winning two Machine Learning Challenges in the same month</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">data science</div>
-    <div class="quarto-category">competitions</div>
-    <div class="quarto-category">machine learning</div>
-    <div class="quarto-category">hackathons</div>
+    <div class="quarto-category">Data Science</div>
+    <div class="quarto-category">Competitions</div>
+    <div class="quarto-category">Hackathons</div>
+    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Analytics Vidhya</div>
+    <div class="quarto-category">2017</div>
   </div>
   </div>
 
@@ -195,7 +200,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>February 2017 has been a really good month since I have had an opportunity to work on multiple machine learning challenges, hosted by Analytics Vidhya, and came out winning both of them. I wanted to share my experiences of participating in these challenges.</p>
-<p>Analytics Roadshow MiniHack The first of these challenges was a mini-hack in which participants had three hours of time to build the most accurate predictive model that predicts surge pricing type for a taxi aggregator so that the matchmaking between the right cabs and right customers is quick and efficient.</p>
+<section id="analytics-roadshow-minihack" class="level2">
+<h2 class="anchored" data-anchor-id="analytics-roadshow-minihack">Analytics Roadshow MiniHack</h2>
+<p>The first of these challenges was a mini-hack in which participants had three hours of time to build the most accurate predictive model that predicts surge pricing type for a taxi aggregator so that the matchmaking between the right cabs and right customers is quick and efficient.</p>
 <p>After a quick exploration of data, I encoded the Gender, Type of Cab and Confidence Life Style Index to numerical values so that tree models could consume the data. A 3-hour challenge doesn’t give you too much room to start with feature engineering. Hence, I directly jumped to building models to quickly test what works and what doesn’t. Linear models and Random forests produced around 0.63 and 0.68 on both cross-validation and leaderboard respectively. However, these stood around top 30th percentile. XGBoost, once again outperformed other models and it put me one among top 5 on leaderboard within an hour of the challenge. However, it was difficult to make any improvements to this.</p>
 <section id="what-didnt-work" class="level3">
 <h3 class="anchored" data-anchor-id="what-didnt-work">What didn’t work</h3>
@@ -208,6 +215,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Ref: https://datahack.analyticsvidhya.com/contest/minihack-machine-learning/lb</p>
 <p>Source code here: https://github.com/binga/AnalyticsVidhya_Minihack</p>
 <p>2 weekends later..</p>
+</section>
 </section>
 <section id="mlware-2-recommendation-challenge" class="level1">
 <h1>MLWare 2— Recommendation Challenge</h1>

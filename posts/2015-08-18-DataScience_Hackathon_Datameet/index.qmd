@@ -2,7 +2,7 @@
 title: 'Data Science Hackathon — DataMeet Mumbai'
 author: "Phani Srikanth"
 date: "2015-08-15"
-categories: [data science, competitions, machine learning, hackathons]
+categories: [Data Science, Competitions, Hackathons, Machine Learning, 2015]
 ---
 
 Well, it was a rather ordinary day when I found that there was a hackathon being organized at BSE in South Mumbai and that’s when I along with a couple of my colleagues from Data Science Labs at Housing.com decided to form a team and participate in the weekend hackathon. We were pretty late to the event and we received the data on friday night and we only started working from the afternoon of Saturday. Effectively, we had just above a day to beat the best competitors.
