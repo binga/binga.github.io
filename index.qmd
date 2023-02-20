@@ -6,7 +6,7 @@ format:
         page-layout: full
 ---
 
-I curretly live in United States and I am from India.
+I currently live in United States and I am from India.
 
 - 🔭 I’m currently working on helping my teammates succeed in protecting users from malicious file-based and web-based attacks using Machine Learning at Microsoft.
 - 🌱 I’m learning how to lead great teams!
