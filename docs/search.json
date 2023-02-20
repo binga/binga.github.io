@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "Phani Srikanth",
     "section": "",
-    "text": "TODO."
+    "text": "testing."
   },
   {
     "objectID": "index.html",
@@ -19,5 +19,33 @@
     "title": "Recommendations",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n2 min\n\n\n\ndata science\n\n\ncompetitions\n\n\nmachine learning\n\n\nhackathons\n\n\n\n\n\n\n\nDec 16, 2016\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.html",
+    "href": "posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.html",
+    "title": "Winning the HackerEarth Machine Learning challenge",
+    "section": "",
+    "text": "Societe Generale, one of the largest banks in France, in collaboration with HackerEarth, organised Brainwaves, the annual hackathon at Bengaluru on November 12–13, 2016. The theme of the hackathon this year was “Machine Learning”. The hackathon had an online qualifier from where 85 top teams out of 2200 registrations from all over India, were selected for the final round. The final round was a 30-hour long hackathon which needed the teams to solve 1 problem out of 3 given problems spanning across transaction fraud detection, image and text analytics. I decided to solve the former since I have had experience working with banking data in multiple firms I have previously worked with."
+  },
+  {
+    "objectID": "posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.html#brief-approach",
+    "href": "posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.html#brief-approach",
+    "title": "Winning the HackerEarth Machine Learning challenge",
+    "section": "Brief Approach",
+    "text": "Brief Approach\nFor the first problem, we were given millions of historical transactions to find patterns from and use these patterns to find anomalies on future transactions. We quickly skimmed through the data and built our machine learning model to predict the fraud on future transactional data and ranked #1 on the leaderboard. Eventually, we also built dashboards which can be used for proactive real-time monitoring for detection of any kind of new anomalies, or they can also be used to monitor transaction throughput etc. You could think of it like a one stop control centre with a global view of what’s going through the system. One commonly known fraudulent behaviour is, fraudsters try to exploit the system by doing high number of small debits and one large credit, thus swindling the money across countries and exchanges and hence trying to circumvent the defences of the system. This particular kind was quite challenging to incorporate into our machine learning model on and we are glad to have solved it to a good extent in 30 hours. Eventually, we had a good dashboard, a very good model and made an excellent pitch to the jury and ranked 1st amongst 85 teams."
+  },
+  {
+    "objectID": "posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.html#experiences-at-the-hackathon",
+    "href": "posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.html#experiences-at-the-hackathon",
+    "title": "Winning the HackerEarth Machine Learning challenge",
+    "section": "Experiences at the hackathon",
+    "text": "Experiences at the hackathon\nThe hackathon was very well organised in terms of the quality of problem statements in the online and offline rounds, the way the organising team responded to any queries. It was genuinely surprising to see many mentors walking down to our table, talking to us about our backgrounds and providing us various domain related insights which augmented our model and resulted in higher performance. Even during the late hours none of them really left the place, they would always come and check if we were stalled anywhere and help us directionally so that we make constant progress. Having participated in a lot of hackathons prior to this one, I am very surprised by the energy levels of the mentors at Societe Generale.\nTo conclude, I would like to thank HackerEarth, Societe Generale, mentors and most importantly Phani Srinath and Supreeth Manyam for their fantastic work during the weekend. Great work guys! If not for any of the above, I am sure that weekend wouldn’t have been so memorable.\nAnd yes… we partied long and hard that night! :-)\n  \nOur team with the amazing mentors and Societe Generale India CEO\nTop 3 teams pose for the customary picture. Overall, November 2016 has been a great month since Supreeth Manyam and I have also ended up winning another machine learning contest on CrowdAnalytix. We participated with the moniker Popeye For Olive!\nThat’s it for now. Stay tuned…"
   }
 ]
