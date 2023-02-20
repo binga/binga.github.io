@@ -27,14 +27,22 @@ website:
         text: Recommendations
     right:
       - icon: twitter
+        text: Twitter
         href: https://twitter.com/phanisrikanth33
       - icon: github
+        text: GitHub
         href: https://github.com/binga/
       - icon: linkedin
+        text: LinkedIn
         href: https://www.linkedin.com/in/phanisrikanth/
       - icon: medium
+        text: Medium
         href: https://medium.com/@phanisrikanth33
+      - icon: clipboard-data
+        text: Kaggle
+        href: https://www.kaggle.com/phanisrikanth
       - icon: envelope
+        text: Email
         href: mailto:phanisrikanth33@gmail.com
 
 format:
@@ -44,6 +52,4 @@ format:
       dark: slate
     css: styles.css
     toc: true
-
-
 
