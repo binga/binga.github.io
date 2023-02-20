@@ -1,0 +1,26 @@
+---
+title: 'Data Science Hackathon — DataMeet Mumbai'
+author: "Phani Srikanth"
+date: "2015-08-15"
+categories: [data science, competitions, machine learning, hackathons]
+---
+
+Well, it was a rather ordinary day when I found that there was a hackathon being organized at BSE in South Mumbai and that’s when I along with a couple of my colleagues from Data Science Labs at Housing.com decided to form a team and participate in the weekend hackathon. We were pretty late to the event and we received the data on friday night and we only started working from the afternoon of Saturday. Effectively, we had just above a day to beat the best competitors.
+
+Problem Statement: Propensity model development –the client has a couple of use cases where they have not been able to get 80% response capture in top 3 deciles / >3X lift in the top decile — inspite of several iterations. The expectation here would be identification of any new technique / algorithm (apart from logistic regression), which can help get the desired model performance.
+
+Various kinds of customer data was given to us for utilizing in the data analysis. We were asked to figure out which customers are potential loan takers. The data given to us had a train set and a test set, total amounting to 8 lakh records and various features of each of the customers. The evaluation metric seemed trickier at first. I have often worked with logloss and AUC for binary classification problems. But, this problem was aspiring for higher lift in the top 10% and 30% recommendations.
+
+We initially started with linear models and observed that the lift we were able to achieve was worser than the benchmark. Therefore, we switched to nonlinear models like decision trees and ensembles like Random Forest. Forests were able to produce much better results. But, due to the inherent nature of forests, the probabilities aren’t uniformly calibrated. So, we had to choose an algorithm that directly optimized the evaluation metric and thus we chose XGBoost (which is by far the most popular tool on Kaggle) which is fast and optimized the right evaluation metric and we observed that the XGBoost was performing way better than forests. As the requirement from the organizers included fast computation and cross-platform support, we stuck with XGBoost instead of creating complex ensembles which are engineering-heavy, and choose to take the feature creation route.
+
+<img src="1.webp">
+
+One of our teammates focused on creation of various features while the others focused on modeling and pushing the accuracy. We were pretty happy to obtain a lift of 5.5x while the benchmark was around 3x. Thus we chose to stick with 1 model!
+
+On Sunday, we met the organizers and they were pretty happy with the model performance and they gave us 5 more days to increase the accuracy. But, we could only push it by 1% considering the heavy engineering effort required to make a significant progress.
+
+After 2 weeks of evaluation, I received a mail today from them saying, we stood 2nd on the competition from the total pool of 15 teams which are from various parts of India and from reputed universities like CMU etc.
+
+I’m pretty happy with the 2nd position finish as this is the first time I ended up winning a Data Science Challenge.
+
+I hope there are many more to come!
