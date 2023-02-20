@@ -19,6 +19,9 @@ website:
       - icon: file-person
         href: about.qmd
         text: About
+      - icon: book
+        href: blog.qmd
+        text: Blog
       - icon: megaphone
         href: recommendations.qmd
         text: Recommendations

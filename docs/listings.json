@@ -2,5 +2,11 @@
   {
     "listing": "/recommendations.html",
     "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.html"
+    ]
   }
 ]
