@@ -2,7 +2,7 @@
 title: 'Winning the HackerEarth Machine Learning challenge'
 author: "Phani Srikanth"
 date: "2016-12-16"
-categories: [data science, competitions, machine learning, hackathons]
+categories: [data science, competitions, machine learning, hackathons, HackerEarth]
 ---
 
 
