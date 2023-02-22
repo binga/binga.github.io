@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-description','listing-title','listing-reading-time','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -165,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="2015">2015 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="2016">2016 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="2017">2017 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analytics Vidhya">Analytics Vidhya <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Competitions">Competitions <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Data Science">Data Science <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Hackathons">Hackathons <span class="quarto-category-count">(4)</span></div><div class="category" data-category="HackerEarth">HackerEarth <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="2015">2015 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="2016">2016 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="2017">2017 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analytics Vidhya">Analytics Vidhya <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ChatGPT">ChatGPT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Competitions">Competitions <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Data Science">Data Science <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Hackathons">Hackathons <span class="quarto-category-count">(4)</span></div><div class="category" data-category="HackerEarth">HackerEarth <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LLMs">LLMs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Sports">Sports <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -213,7 +213,43 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Data Science,Competitions,Hackathons,Machine Learning,Analytics Vidhya,2017" data-listing-date-sort="1490857200000" data-listing-file-modified-sort="1676864325944" data-listing-reading-time-sort="4.31">
+<div class="g-col-1" data-index="0" data-categories="Sports,ChatGPT,LLMs" data-listing-date-sort="1676966400000" data-listing-file-modified-sort="1677053652371" data-listing-reading-time-sort="1.79">
+<a href="./posts/2023-02-21-F1_Prompts/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2023-02-21-F1_Prompts/1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Generating sports statistics using ChatGPT
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Sports'); return false;">
+Sports
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ChatGPT'); return false;">
+ChatGPT
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('LLMs'); return false;">
+LLMs
+</div>
+</div>
+<div class="card-text listing-description">
+Unless you are living under a rock, you must be aware of ChatGPT. As a racing enthusiast, I was interested in generating racing statistics using ChatGPT. While I was succesful to an extent, there are still some issues with the model. Let’s jump into the details.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Feb 21, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Data Science,Competitions,Hackathons,Machine Learning,Analytics Vidhya,2017" data-listing-date-sort="1490857200000" data-listing-file-modified-sort="1676864325944" data-listing-reading-time-sort="4.31">
 <a href="./posts/2017-03-30-Winning_Two_ML_Challenges/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-img-bg" style="height: 150px;">
@@ -258,7 +294,7 @@ Mar 30, 2017
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Data Science,Competitions,Hackathons,Machine Learning,HackerEarth,2016" data-listing-date-sort="1481875200000" data-listing-file-modified-sort="1676863937270" data-listing-reading-time-sort="2.72">
+<div class="g-col-1" data-index="2" data-categories="Data Science,Competitions,Hackathons,Machine Learning,HackerEarth,2016" data-listing-date-sort="1481875200000" data-listing-file-modified-sort="1676863937270" data-listing-reading-time-sort="2.72">
 <a href="./posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-img-bg" style="height: 150px;">
@@ -303,7 +339,7 @@ Dec 16, 2016
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Data Science,Competitions,Hackathons,Machine Learning,Analytics Vidhya,2015" data-listing-date-sort="1442300400000" data-listing-file-modified-sort="1676863872279" data-listing-reading-time-sort="4.265">
+<div class="g-col-1" data-index="3" data-categories="Data Science,Competitions,Hackathons,Machine Learning,Analytics Vidhya,2015" data-listing-date-sort="1442300400000" data-listing-file-modified-sort="1676863872279" data-listing-reading-time-sort="4.265">
 <a href="./posts/2015-09-15-AnalyticsVidhya_3.X_Hackathon/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-img-bg" style="height: 150px;">
@@ -348,7 +384,7 @@ Sep 15, 2015
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Data Science,Competitions,Hackathons,Machine Learning,2015" data-listing-date-sort="1439622000000" data-listing-file-modified-sort="1676863895086" data-listing-reading-time-sort="2.64">
+<div class="g-col-1" data-index="4" data-categories="Data Science,Competitions,Hackathons,Machine Learning,2015" data-listing-date-sort="1439622000000" data-listing-file-modified-sort="1676863895086" data-listing-reading-time-sort="2.64">
 <a href="./posts/2015-08-18-DataScience_Hackathon_Datameet/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-img-bg" style="height: 150px;">
