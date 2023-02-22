@@ -8,6 +8,7 @@ website:
   repo-url: https://github.com/binga/binga.github.io
   repo-actions: [edit, issue]
   open-graph: true
+  google-analytics: "G-9PB6J6H4XP"
   twitter-card:
     creator: "@phanisrikanth33"
     card-style: summary_large_image
