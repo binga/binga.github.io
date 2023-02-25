@@ -2,7 +2,7 @@
 title: 'Can ChatGPT generate Accurate Sports Statistics?'
 author: "Phani Srikanth"
 date: "2023-02-21"
-categories: [Sports, ChatGPT, LLMs]
+categories: [Sports, ChatGPT, LLMs, 2023]
 website:
   page-navigation: true
 ---
