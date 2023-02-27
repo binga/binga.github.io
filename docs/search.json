@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\nSports\n\n\nChatGPT\n\n\nLLMs\n\n\n2023\n\n\n\n\n\n\n\nFeb 21, 2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n4 min\n\n\n\nData Science\n\n\nCompetitions\n\n\nHackathons\n\n\nMachine Learning\n\n\nAnalytics Vidhya\n\n\n2017\n\n\n\n\n\n\n\nMar 30, 2017\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n2 min\n\n\n\nData Science\n\n\nCompetitions\n\n\nHackathons\n\n\nMachine Learning\n\n\nHackerEarth\n\n\n2016\n\n\n\n\n\n\n\nDec 16, 2016\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n4 min\n\n\n\nData Science\n\n\nCompetitions\n\n\nHackathons\n\n\nMachine Learning\n\n\nAnalytics Vidhya\n\n\n2015\n\n\n\n\n\n\n\nSep 15, 2015\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n2 min\n\n\n\nData Science\n\n\nCompetitions\n\n\nHackathons\n\n\nMachine Learning\n\n\n2015\n\n\n\n\n\n\n\nAug 15, 2015\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\n\n0 min\n\n\n\ncooking\n\n\nclean-eating\n\n\n15-minute-recipes\n\n\n2023\n\n\n\n\n\n\n\n\nFeb 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\nSports\n\n\nChatGPT\n\n\nLLMs\n\n\n2023\n\n\n\n\n\n\n\nFeb 21, 2023\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n4 min\n\n\n\nData Science\n\n\nCompetitions\n\n\nHackathons\n\n\nMachine Learning\n\n\nAnalytics Vidhya\n\n\n2017\n\n\n\n\n\n\n\nMar 30, 2017\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n2 min\n\n\n\nData Science\n\n\nCompetitions\n\n\nHackathons\n\n\nMachine Learning\n\n\nHackerEarth\n\n\n2016\n\n\n\n\n\n\n\nDec 16, 2016\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n4 min\n\n\n\nData Science\n\n\nCompetitions\n\n\nHackathons\n\n\nMachine Learning\n\n\nAnalytics Vidhya\n\n\n2015\n\n\n\n\n\n\n\nSep 15, 2015\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n2 min\n\n\n\nData Science\n\n\nCompetitions\n\n\nHackathons\n\n\nMachine Learning\n\n\n2015\n\n\n\n\n\n\n\nAug 15, 2015\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2016-12-16-Winning_HackerEarth_ML_Challenge/index.html",
@@ -103,5 +103,12 @@
     "title": "Generating sports statistics using ChatGPT",
     "section": "Takeaways",
     "text": "Takeaways\n\nWithout any coding and referencing multiple websites, I was able to pull this data. So, large language models like ChatGPT will be super useful in a wide variety of ways.\nWe still do not know the most appropriate ways to ask the model for the answer. We are figuring it out as we go.\nThe model is still not perfect. It is still making mistakes. But, it is getting better with time."
+  },
+  {
+    "objectID": "posts/2023-02-26-Sauteed_Vegetables/index.html",
+    "href": "posts/2023-02-26-Sauteed_Vegetables/index.html",
+    "title": "Sauteed Vegetables Recipe",
+    "section": "",
+    "text": "Process\n\nPreheat the Airfryer at 390F for 3 minutes.\nClean Broccoli with lukewarm water\nDefrost frozen corn\nDefrost frozen beans\nIf the beans aren’t cut, feel free to cut them into small pieces.\nAdd broccoli, corn and beans into the preheated airfryer.\nAdd a small teaspoon of salt, sprinkle some black pepper and add adequate butter for taste!\nAirfry the ingredients for 10 minutes.\nMake sure you are tossing the vegetables in the airfryer every 3-4 minutes for crispiness.\n\n\n\nTips\n\nStoring broccoli in a freezer for a long time might be a bad idea as water content will be fully squeezed out of broccoli. This will lead to dryness which is not preferable.\nIf you prefer a slightly salty taste, consider using Amul Butter for a surprisingly better taste!\nRead step (7) again."
   }
 ]
