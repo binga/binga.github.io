@@ -22,3 +22,4 @@ title-block-banner: false
 | How to get Feedback              | [Link](https://unchartedterritories.tomaspueyo.com/p/how-to-get-feedback) |
 | Signaling on the internet        | [Link](https://eriktorenberg.substack.com/p/signaling-on-the-internet)    |
 | Your life in weeks               | [Link](https://waitbutwhy.com/2014/05/life-weeks.html)                    |
+| Pick up What They put down       | [Link](https://www.swyx.io/puwtpd)                     |
