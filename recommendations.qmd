@@ -3,12 +3,22 @@ title: "Recommendations"
 listing:
   contents: recommendations
   sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: true
-  filter-ui: true
-  fields: [date, description, title, reading-time, categories, image, Location, Venue]
-  feed: false
+  #type: table
+  #categories: true
+  #sort-ui: true
+  #filter-ui: true
+  #fields: [date, description, title, reading-time, categories, image, Location, Venue]
+  #feed: false
 page-layout: full
 title-block-banner: false
 ---
+
+| Title                            | Link                                                              |
+|----------------------------------|-------------------------------------------------------------------|
+| Research as Understanding        | [Link](https://kanjun.me/writing/research-as-understanding)               |
+| Engineer/Manager Career Pendulum | [Link](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum)      |
+| 1000 True Fans                   | [Link](https://kk.org/thetechnium/1000-true-fans/)                        |
+| The Polymath Playbook            | [Link](https://salman.io/blog/polymath-playbook/)                         |
+| How to get Feedback              | [Link](https://unchartedterritories.tomaspueyo.com/p/how-to-get-feedback) |
+| Signaling on the internet        | [Link](https://eriktorenberg.substack.com/p/signaling-on-the-internet)    |
+| Your life in weeks               | [Link](https://waitbutwhy.com/2014/05/life-weeks.html)                    |

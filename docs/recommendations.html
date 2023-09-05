@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-description','listing-title','listing-reading-time','listing-categories','listing-image','listing-Location','listing-Venue',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -194,11 +194,11 @@ gtag('config', 'G-9PB6J6H4XP', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -217,33 +217,49 @@ gtag('config', 'G-9PB6J6H4XP', { 'anonymize_ip': true});
 
 </header>
 
+<table class="table">
+<thead>
+<tr class="header">
+<th>Title</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Research as Understanding</td>
+<td><a href="https://kanjun.me/writing/research-as-understanding">Link</a></td>
+</tr>
+<tr class="even">
+<td>Engineer/Manager Career Pendulum</td>
+<td><a href="https://charity.wtf/2017/05/11/the-engineer-manager-pendulum">Link</a></td>
+</tr>
+<tr class="odd">
+<td>1000 True Fans</td>
+<td><a href="https://kk.org/thetechnium/1000-true-fans/">Link</a></td>
+</tr>
+<tr class="even">
+<td>The Polymath Playbook</td>
+<td><a href="https://salman.io/blog/polymath-playbook/">Link</a></td>
+</tr>
+<tr class="odd">
+<td>How to get Feedback</td>
+<td><a href="https://unchartedterritories.tomaspueyo.com/p/how-to-get-feedback">Link</a></td>
+</tr>
+<tr class="even">
+<td>Signaling on the internet</td>
+<td><a href="https://eriktorenberg.substack.com/p/signaling-on-the-internet">Link</a></td>
+</tr>
+<tr class="odd">
+<td>Your life in weeks</td>
+<td><a href="https://waitbutwhy.com/2014/05/life-weeks.html">Link</a></td>
+</tr>
+</tbody>
+</table>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 <div class="list quarto-listing-default">
 
 </div>
