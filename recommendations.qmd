@@ -23,3 +23,28 @@ title-block-banner: false
 | Signaling on the internet        | [Link](https://eriktorenberg.substack.com/p/signaling-on-the-internet)    |
 | Your life in weeks               | [Link](https://waitbutwhy.com/2014/05/life-weeks.html)                    |
 | Pick up What They put down       | [Link](https://www.swyx.io/puwtpd)                     |
+| Some Career Advice       | [Link](https://lethain.com/career-advice)                     |
+| Counting Deaths in India is difficult  | [Link](https://www.hindustantimes.com/opinion/counting-deaths-in-india-is-difficult-101626273326958.html)                     |
+| Being an Infinite Player  | [Link](https://sashachapin.substack.com/p/a-brief-practical-guide-to-being)                    |
+| Agency  | [Link](https://map.simonsarris.com/p/the-most-precious-resource-is-agency)                    |
+| Reading Better  | [Link](https://fs.blog/reading)                    |
+| How to waste career  | [Link](https://apoorvagovind.substack.com/p/how-to-waste-your-career-one-comfortable)                    |
+| Why the new employer is no employer at all  | [Link](https://junglegym.substack.com/p/new-employer-of-choice)                    |
+| How to explain complicated things in a simple way  | [Link](https://www.exaltus.ca/blog/explain-complicated-things)                    |
+| Early Work  | [Link](http://paulgraham.com/early.html)                    |
+| Build Personal Moats | [Link](https://eriktorenberg.substack.com/p/build-personal-moats)                    |
+| The Downside of Work Life Balance  | [Link](https://jamesclear.com/four-burners-theory)                    |
+| Becoming a Magician  | [Link](https://autotranslucence.com/2018/03/30/becoming-a-magician)                    |
+| Calendar. Not to-do lists.  | [Link](https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd)                    |
+| How to be great? Just be good, repeatebly  | [Link](https://blog.stephsmith.io/how-to-be-great)                    |
+| Take Asymmetric Bets  | [Link](https://eriktorenberg.substack.com/p/take-asymmetric-bets)                    |
+| The Most Respectful Interpretation  | [Link](https://fs.blog/most-respectful-interpretation)                    |
+| When a grieving Mother Talks, Listen  | [Link](https://www.nytimes.com/2017/12/21/style/perinatal-death-stillbirth-childbirth.html)                    |
+| How to Write Better? Why, What and How Framework  | [Link](https://eugeneyan.com/writing/writing-docs-why-what-how)                    |
+| Signaling as a service  | [Link](https://julian.digital/2020/03/28/signaling-as-a-service)                    |
+| The Billion Dollar Creator  | [Link](https://nathanbarry.com/billion)                    |
+| Why Nerds are Unpopular  | [Link](http://www.paulgraham.com/nerds.html)                    |
+| The Billion Dollar Creator  | [Link](https://nathanbarry.com/billion)                    |
+| Climbing the Wealth Ladder  | [Link](https://ofdollarsanddata.com/climbing-the-wealth-ladder)                    |
+| Proof of X  | [Link](https://julian.digital/2020/08/06/proof-of-x/)                    |
+| Network Legibility and Status  | [Link](https://boundless.substack.com/p/network-legibility-and-status-125)                    |
