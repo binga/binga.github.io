@@ -48,3 +48,8 @@ title-block-banner: false
 | Climbing the Wealth Ladder  | [Link](https://ofdollarsanddata.com/climbing-the-wealth-ladder)                    |
 | Proof of X  | [Link](https://julian.digital/2020/08/06/proof-of-x/)                    |
 | Network Legibility and Status  | [Link](https://boundless.substack.com/p/network-legibility-and-status-125)                    |
+| How to do great work  | [Link](www.paulgraham.com/greatwork.html)                    |
+| Principles of Effective Research  | [Link](https://michaelnielsen.org/blog/principles-of-effective-research/)                    |
+| Principles of Research Code  | [Link](https://www.theexclusive.org/2012/08/principles-of-research-code.html)                    |
+| Why I keep a research blog  | [Link](https://gregorygundersen.com/blog/2020/01/12/why-research-blog/)                    |
+| A career cold start algorithm  | [Link](https://boz.com/articles/career-cold-start)                    |
