@@ -53,3 +53,4 @@ title-block-banner: false
 | Principles of Research Code  | [Link](https://www.theexclusive.org/2012/08/principles-of-research-code.html)                    |
 | Why I keep a research blog  | [Link](https://gregorygundersen.com/blog/2020/01/12/why-research-blog/)                    |
 | A career cold start algorithm  | [Link](https://boz.com/articles/career-cold-start)                    |
+| every company has the same hiring criteria | [Link](https://ethanding.substack.com/p/every-company-has-the-same-hiring) |
