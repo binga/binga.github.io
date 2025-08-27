@@ -8,8 +8,8 @@ format:
 
 I am Phani Srikanth and I reside in India.
 
-- 🔭 I’m currently an Applied Scientist & Machine Learning Research Lead at NetApp building ML/AI models for data compliance and governance for Enterprises. Specifically, I build and help build AI systems for document intelligence such as document classification, sensitive data detection, information retrieval with research investments in synthetic data creation with LLMs, multimodality and multilinguality, inference optimizations and AI agents for speeding up laborious tasks.
+- 🔭 I’m currently an Applied Scientist & Machine Learning / AI Research Lead at NetApp India building ML/AI models for data compliance and governance for Enterprises. Specifically, I build and help build ML/AI systems for Document AI or document intelligence backed by ML cababilities such as document classification, sensitive data detection, information retrieval with key ML research investments that span across the areas of multimodality, multilinguality, synthetic data, efficient models, inference optimizations and AI security.
 
-- 💬 Happy to talk about Sports / Data Science & ML / Building Career Paths / Storytelling / Interesting People on Internet / Systems Thinking.
+- 💬 Happy to talk about Data Science & Machine Learning to newbies or PMs or engineers / Career Advice / Interesting People on Internet / Systems Thinking.
 
 - ⚡ Fun fact about me: I never uttered a word until I turned 3.
