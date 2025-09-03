@@ -1,0 +1,8 @@
+---
+title: 'India, GPUs and thoughts.'
+author: "Phani Srikanth"
+date: "2025-09-03"
+categories: [AI, GPUs, India]
+---
+
+Coming soon.
