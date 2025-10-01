@@ -12,6 +12,6 @@
 
 `uv cache clean`
 
-### Running python scripts within the environment
+### Running python scripts without activating the venv
 
 `uv run script.py`

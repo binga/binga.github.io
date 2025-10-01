@@ -18,7 +18,7 @@
     "href": "posts/2025-10-01-uv/index.html",
     "title": "Frequent uv commands",
     "section": "",
-    "text": "Frequent uv commands\n\nInstall all packages from pyproject.toml\nuv pip install --editable . reads pyproject.toml and installs every declared dependency.\nuv sync\nuv sync -v for verbose logs\n\n\nDelete uv cache to save disk space\nuv cache clean\n\n\nRunning python scripts within the environment\nuv run script.py"
+    "text": "Frequent uv commands\n\nInstall all packages from pyproject.toml\nuv pip install --editable . reads pyproject.toml and installs every declared dependency.\nuv sync\nuv sync -v for verbose logs\n\n\nDelete uv cache to save disk space\nuv cache clean\n\n\nRunning python scripts without activating the venv\nuv run script.py"
   },
   {
     "objectID": "posts/2025-09-03-India_GPUs/index.html",
