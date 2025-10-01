@@ -1,0 +1,17 @@
+# Frequent uv commands
+
+### Install all packages from pyproject.toml
+
+`uv pip install --editable .` reads pyproject.toml and installs every declared dependency.
+
+`uv sync`
+
+`uv sync -v` for verbose logs
+
+### Delete uv cache to save disk space
+
+`uv cache clean`
+
+### Running python scripts within the environment
+
+`uv run script.py`
