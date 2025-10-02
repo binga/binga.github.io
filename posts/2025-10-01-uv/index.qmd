@@ -15,3 +15,11 @@
 ### Running python scripts without activating the venv
 
 `uv run script.py`
+
+### Invove CLI tools in terminal (works even without activating virtual environment)
+
+`uv run -- trl`
+
+`uv run -- trackio`
+
+`uv run -- python`
