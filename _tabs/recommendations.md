@@ -59,11 +59,22 @@ A curated list of articles and essays I find worth reading.
 .rec-card .rec-title a:hover {
   color: var(--link-color, #007bff);
 }
+.rec-card .rec-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+.rec-card .rec-date {
+  font-size: 0.78rem;
+  color: var(--text-muted-color, #999);
+  white-space: nowrap;
+}
 .rec-card .rec-tags {
   display: flex;
   gap: 6px;
   flex-shrink: 0;
-  margin-left: 12px;
 }
 .rec-card .rec-tag {
   font-size: 0.73rem;
