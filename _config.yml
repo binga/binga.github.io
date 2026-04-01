@@ -136,6 +136,7 @@ defaults:
       layout: post
       comments: false
       toc: true
+      show_reading_time: true
       permalink: /posts/:title/
   - scope:
       path: _drafts
