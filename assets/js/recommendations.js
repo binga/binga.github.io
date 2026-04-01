@@ -39,7 +39,7 @@ const recommendations = [
   { title: "Every company has the same hiring criteria", url: "https://ethanding.substack.com/p/every-company-has-the-same-hiring", tags: ["career"] }
 ];
 
-document.addEventListener("DOMContentLoaded", function () {
+function initRecommendations() {
   var allTags = [];
   var seen = {};
   recommendations.forEach(function (r) {
@@ -84,4 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   render();
-});
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initRecommendations);
+} else {
+  initRecommendations();
+}
