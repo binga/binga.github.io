@@ -1,9 +1,0 @@
----
-title: "Phani Srikanth"
-comments: False
-format: 
-    html: 
-        page-layout: full
----
-
-testing.

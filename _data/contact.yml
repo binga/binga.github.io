@@ -1,0 +1,15 @@
+#  The contact options.
+
+- type: github
+  icon: "fab fa-github"
+
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
+
+- type: linkedin
+  icon: 'fab fa-linkedin'
+  url: 'https://www.linkedin.com/in/phanisrikanth/'
+
+- type: kaggle
+  icon: "fab fa-kaggle"
+  url: 'https://www.kaggle.com/phanisrikanth'
