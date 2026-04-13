@@ -1,14 +1,12 @@
 ---
-
-## layout: post
+layout: post
 title: "Improving search for coding agents"
 date: 2026-04-14
 author: ps
 slug: search-for-coding-agents
 categories: [AI, Agents, Tooling]
 tags: [search, colgrep, code-search, semantic-search, benchmarking, llm-agents]
-
-
+---
 
 [View tweet on X](https://x.com/phanisrikanth33/status/2043774790922904022)
 
@@ -57,4 +55,4 @@ I would like to capture metrics, for a few queries, across the trifecta - search
 2. Nifty little CLI tools are here to stay. They help agents with specific functionality outside the model layer.
 3. Every great coding agent needs access to a code search tool for retrieval. ColGrep direction is promising as it efficiently packages a great BM25 search with a competent and strong late interaction model for semantic search. This combo is powerful!
 
-*References:* *[ColGrep / NextPlaid (GitHub)](https://github.com/lightonai/next-plaid)* *|* *[LateOn-Code blog post (HuggingFace)](https://huggingface.co/blog/lightonai/colgrep-lateon-code)* 
+*References:* *[ColGrep / NextPlaid (GitHub)](https://github.com/lightonai/next-plaid)* *|* *[LateOn-Code blog post (HuggingFace)](https://huggingface.co/blog/lightonai/colgrep-lateon-code)*
