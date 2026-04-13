@@ -1,22 +1,14 @@
 ---
-layout: post
+
+## layout: post
 title: "Improving search for coding agents"
-date: 2025-10-02
+date: 2026-04-14
 author: ps
 slug: search-for-coding-agents
 categories: [AI, Agents, Tooling]
 tags: [search, colgrep, code-search, semantic-search, benchmarking, llm-agents]
----
 
-<iframe
-  src="https://platform.twitter.com/embed/Tweet.html?id=2043774790922904022&dnt=true"
-  width="550"
-  height="420"
-  frameborder="0"
-  scrolling="no"
-  allowtransparency="true"
-  style="max-width: 100%; margin: 0 auto 1rem; display: block;"
-></iframe>
+
 
 [View tweet on X](https://x.com/phanisrikanth33/status/2043774790922904022)
 
