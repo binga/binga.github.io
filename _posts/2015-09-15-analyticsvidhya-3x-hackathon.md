@@ -3,8 +3,8 @@ layout: post
 title: "Analytics Vidhya 3.X Hackathon"
 date: 2015-09-15
 author: ps
-categories: [Data Science]
-tags: [competitions, hackathons, machine-learning, analytics-vidhya, xgboost, ensembling]
+categories: [Origins, Competitive Machine Learning]
+tags: [competitive-ml]
 ---
 
 Analytics Vidhya, a community of analytics professionals and data scientists hosted an online data analytics hackathon on 5th, 6th (weekend) of September, 2015. I have come to know it just a couple of days prior to the hackathon and I quickly registered and cancelled all my weekend plans. While there were a lot of registrations before the hackathon began, there were only about 70 odd participants who participated and submitted solutions.

@@ -3,8 +3,8 @@ layout: post
 title: "Frequent uv Commands"
 date: 2025-10-01
 author: ps
-categories: [Python]
-tags: [uv, python, tooling, developer-tools]
+categories: [Developer Tooling]
+tags: [developer-tooling]
 ---
 
 ### Install all packages from pyproject.toml

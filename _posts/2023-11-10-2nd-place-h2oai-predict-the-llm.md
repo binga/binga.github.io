@@ -3,8 +3,8 @@ layout: post
 title: "2nd Place Solution: LLM Decoders, Assignment Optimization, and Custom Post-Processing"
 date: 2023-11-10
 author: ps
-categories: [Data Science]
-tags: [competitions, kaggle, llm, nlp, machine-learning, h2o]
+categories: [Applied AI, LLMs and Evaluation]
+tags: [llms, fine-tuning, competitive-ml]
 ---
 
 > Originally published as a [Kaggle writeup](https://www.kaggle.com/competitions/h2oai-predict-the-llm/writeups/kha-vo-binga-2nd-place-solution-llm-decoders-assig) for the h2o.ai Predict the LLM competition.

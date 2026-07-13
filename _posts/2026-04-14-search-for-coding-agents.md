@@ -4,8 +4,8 @@ title: "Improving search for coding agents"
 date: 2026-04-14
 author: ps
 slug: search-for-coding-agents
-categories: [AI, Agents, Tooling]
-tags: [search, colgrep, code-search, semantic-search, benchmarking, llm-agents]
+categories: [Applied AI, Agents and Retrieval]
+tags: [agents, retrieval, benchmarking, developer-tooling]
 ---
 
 [View tweet on X](https://x.com/phanisrikanth33/status/2043774790922904022)

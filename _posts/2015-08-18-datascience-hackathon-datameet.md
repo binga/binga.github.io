@@ -3,8 +3,8 @@ layout: post
 title: "Data Science Hackathon -- DataMeet Mumbai"
 date: 2015-08-15
 author: ps
-categories: [Data Science]
-tags: [competitions, hackathons, machine-learning, xgboost]
+categories: [Origins, Competitive Machine Learning]
+tags: [competitive-ml]
 ---
 
 Well, it was a rather ordinary day when I found that there was a hackathon being organized at BSE in South Mumbai and that's when I along with a couple of my colleagues from Data Science Labs at Housing.com decided to form a team and participate in the weekend hackathon. We were pretty late to the event and we received the data on friday night and we only started working from the afternoon of Saturday. Effectively, we had just above a day to beat the best competitors.

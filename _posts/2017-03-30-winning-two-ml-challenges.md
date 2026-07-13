@@ -3,8 +3,8 @@ layout: post
 title: "Winning two Machine Learning Challenges in the same month"
 date: 2017-03-30
 author: ps
-categories: [Data Science]
-tags: [competitions, hackathons, machine-learning, analytics-vidhya, xgboost, lightgbm, collaborative-filtering]
+categories: [Origins, Competitive Machine Learning]
+tags: [competitive-ml]
 ---
 
 February 2017 has been a really good month since I have had an opportunity to work on multiple machine learning challenges, hosted by Analytics Vidhya, and came out winning both of them. I wanted to share my experiences of participating in these challenges.

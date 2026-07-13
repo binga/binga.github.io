@@ -3,8 +3,8 @@ layout: post
 title: "Can ChatGPT generate Accurate Sports Statistics?"
 date: 2023-02-21
 author: ps
-categories: [AI]
-tags: [chatgpt, llms, sports, formula-1]
+categories: [Applied AI, LLMs and Evaluation]
+tags: [llms, benchmarking]
 ---
 
 Unless you are living under a rock, you must be aware of ChatGPT. As a racing enthusiast, I was interested in generating racing statistics using ChatGPT. While I was succesful to an extent, there are still some issues with the model. Let's jump into the details.

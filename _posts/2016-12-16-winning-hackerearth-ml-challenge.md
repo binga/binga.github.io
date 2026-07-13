@@ -3,8 +3,8 @@ layout: post
 title: "Winning the HackerEarth Machine Learning Challenge"
 date: 2016-12-16
 author: ps
-categories: [Data Science]
-tags: [competitions, hackathons, machine-learning, hackerearth, fraud-detection]
+categories: [Origins, Competitive Machine Learning]
+tags: [competitive-ml]
 ---
 
 Societe Generale, one of the largest banks in France, in collaboration with HackerEarth, organised Brainwaves, the annual hackathon at Bengaluru on November 12--13, 2016. The theme of the hackathon this year was "Machine Learning". The hackathon had an online qualifier from where 85 top teams out of 2200 registrations from all over India, were selected for the final round. The final round was a 30-hour long hackathon which needed the teams to solve 1 problem out of 3 given problems spanning across transaction fraud detection, image and text analytics. I decided to solve the former since I have had experience working with banking data in multiple firms I have previously worked with.

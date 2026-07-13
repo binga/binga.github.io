@@ -14,6 +14,10 @@
   icon: "fab fa-kaggle"
   url: 'https://www.kaggle.com/phanisrikanth'
 
+- type: hugging-face
+  icon: "fas fa-robot"
+  url: 'https://huggingface.co/binga'
+
 - type: google-scholar
   icon: "fas fa-graduation-cap"
   url: 'https://scholar.google.com/citations?user=QW4NmcoAAAAJ'

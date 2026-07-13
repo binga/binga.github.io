@@ -12,10 +12,12 @@ timezone: Asia/Kolkata
 # jekyll-seo-tag settings
 title: Phani Srikanth
 
-tagline: Principal Scientist and Director of Machine Learning
+tagline: I lead applied AI bets from research to product.
 
 description: >-
-  Personal website and technical blog of Phani Srikanth. Principal Scientist and Director of Machine Learning at NetApp India, building ML/AI models for data compliance and governance.
+  Phani Srikanth is a Principal Scientist and applied AI leader who identifies
+  high-value AI opportunities, de-risks them through prototypes and evaluations,
+  and leads cross-functional teams to bring the strongest ideas into production.
 
 url: "https://www.phanisrikanth.com"
 
@@ -31,6 +33,9 @@ social:
     - https://twitter.com/phanisrikanth33
     - https://github.com/binga
     - https://www.linkedin.com/in/phanisrikanth/
+    - https://www.kaggle.com/phanisrikanth
+    - https://huggingface.co/binga
+    - https://scholar.google.com/citations?user=QW4NmcoAAAAJ
 
 # Site Verification Settings
 webmaster_verifications:
