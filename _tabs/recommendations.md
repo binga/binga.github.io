@@ -2,7 +2,7 @@
 layout: page
 title: Recommendations
 icon: fas fa-bookmark
-order: 5
+order: 4
 ---
 
 A curated list of articles and essays I find worth reading.
