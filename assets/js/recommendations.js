@@ -54,6 +54,7 @@ function initRecommendations() {
     var btn = document.createElement("button");
     btn.className = "tag-btn";
     btn.setAttribute("data-tag", tag);
+    btn.setAttribute("aria-pressed", "false");
     btn.textContent = tag;
     filtersEl.appendChild(btn);
   });
@@ -65,17 +66,29 @@ function initRecommendations() {
     var count = document.getElementById("recCount");
     var visible = activeTag === "all" ? recommendations : recommendations.filter(function (r) { return r.tags.indexOf(activeTag) !== -1; });
     count.textContent = "Showing " + visible.length + " of " + recommendations.length + " articles";
-    var html = "";
+
+    var byYear = {};
     visible.forEach(function (r) {
-      var tagHtml = "";
-      r.tags.forEach(function (t) { tagHtml += '<span class="rec-tag">' + t + "</span>"; });
-      html += '<div class="rec-card">'
-        + '<span class="rec-title"><a href="' + r.url + '" target="_blank" rel="noopener">' + r.title + '</a></span>'
-        + '<span class="rec-meta">'
-        + '<span class="rec-tags">' + tagHtml + '</span>'
-        + '<span class="rec-date">' + r.year + '</span>'
-        + '</span>'
-        + '</div>';
+      if (!byYear[r.year]) byYear[r.year] = [];
+      byYear[r.year].push(r);
+    });
+
+    var html = "";
+    Object.keys(byYear).sort(function (a, b) { return Number(b) - Number(a); }).forEach(function (year) {
+      html += '<section class="rec-year-group" aria-labelledby="rec-year-' + year + '">'
+        + '<time class="rec-year lead" id="rec-year-' + year + '" datetime="' + year + '">' + year + '</time>'
+        + '<ul class="rec-year-list">';
+
+      byYear[year].forEach(function (r) {
+        var tagHtml = "";
+        r.tags.forEach(function (t) { tagHtml += '<span class="rec-tag">' + t + "</span>"; });
+        html += '<li class="rec-entry">'
+          + '<a class="rec-title" href="' + r.url + '" target="_blank" rel="noopener noreferrer">' + r.title + '</a>'
+          + '<span class="rec-tags">' + tagHtml + '</span>'
+          + '</li>';
+      });
+
+      html += '</ul></section>';
     });
     list.innerHTML = html;
   }
@@ -83,8 +96,12 @@ function initRecommendations() {
   filtersEl.addEventListener("click", function (e) {
     if (!e.target.classList.contains("tag-btn")) return;
     var btns = filtersEl.querySelectorAll(".tag-btn");
-    for (var i = 0; i < btns.length; i++) { btns[i].classList.remove("active"); }
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].classList.remove("active");
+      btns[i].setAttribute("aria-pressed", "false");
+    }
     e.target.classList.add("active");
+    e.target.setAttribute("aria-pressed", "true");
     activeTag = e.target.getAttribute("data-tag");
     render();
   });

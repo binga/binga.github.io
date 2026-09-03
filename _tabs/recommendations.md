@@ -33,71 +33,125 @@ A curated list of articles and essays I find worth reading.
   border-color: var(--link-color, #007bff);
   color: #fff;
 }
-.rec-card {
+.rec-count {
+  margin-bottom: 0.75rem;
+  color: var(--text-muted-color, #888);
+  font-size: 0.85rem;
+}
+.rec-timeline {
+  position: relative;
+  letter-spacing: 0.03rem;
+}
+.rec-timeline::before {
+  content: "";
+  position: absolute;
+  top: 1.5rem;
+  bottom: 1.5rem;
+  left: 77px;
+  width: 4px;
+  background-color: var(--timeline-color);
+}
+.rec-year-group {
+  position: relative;
+}
+.rec-year {
+  position: relative;
+  display: block;
+  height: 3.5rem;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.rec-year::after {
+  content: "";
+  position: absolute;
+  top: 0.55rem;
+  left: 73px;
+  width: 12px;
+  height: 12px;
+  border: 3px solid var(--timeline-node-bg);
+  border-radius: 50%;
+  background-color: var(--timeline-year-dot-color);
+  box-shadow: 0 0 2px 0 #c2c6cc;
+  z-index: 1;
+}
+.rec-year-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.rec-timeline .rec-entry {
+  position: relative;
   display: flex;
-  justify-content: space-between;
+  min-height: 3rem;
+  padding: 0.65rem 0 0.65rem 6.5rem;
   align-items: center;
-  padding: 12px 16px;
-  margin-bottom: 8px;
-  border-radius: 10px;
-  background: var(--card-bg, #f8f9fa);
-  border: 1px solid var(--card-border-color, #e9ecef);
-  transition: all 0.2s;
+  gap: 1rem;
+  line-height: 1.5rem;
 }
-.rec-card:hover {
-  border-color: var(--link-color, #007bff);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+.rec-entry:nth-child(odd) {
+  background-color: var(--main-bg, #fff);
+  background-image: linear-gradient(to left, transparent, rgba(127, 127, 127, 0.035), rgba(127, 127, 127, 0.035), transparent);
 }
-.rec-card .rec-title {
-  font-weight: 500;
+.rec-entry::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 75px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--timeline-node-bg);
+  box-shadow: 0 0 3px 0 #c2c6cc;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.rec-timeline a.rec-title {
+  min-width: 0;
   flex: 1;
-}
-.rec-card .rec-title a {
+  border-bottom: none;
+  color: var(--text-color);
+  font-size: 1.05rem;
+  font-weight: 500;
   text-decoration: none;
-  color: var(--text-color, #333);
 }
-.rec-card .rec-title a:hover {
-  color: var(--link-color, #007bff);
+.rec-timeline a.rec-title:hover {
+  color: var(--link-color);
+  border-bottom: none;
 }
-.rec-card .rec-meta {
+.rec-tags {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-shrink: 0;
-  margin-left: 12px;
-}
-.rec-card .rec-date {
-  font-size: 0.78rem;
-  color: var(--text-muted-color, #999);
-  white-space: nowrap;
-}
-.rec-card .rec-tags {
-  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 6px;
-  flex-shrink: 0;
 }
-.rec-card .rec-tag {
+.rec-tag {
   font-size: 0.73rem;
   padding: 2px 8px;
   border-radius: 12px;
   background: var(--btn-border-color, #e9ecef);
-  color: var(--text-muted-color, #888);
+  color: var(--text-color);
   white-space: nowrap;
 }
-.rec-card.hidden {
-  display: none;
-}
-.rec-count {
-  font-size: 0.85rem;
-  color: var(--text-muted-color, #888);
-  margin-bottom: 12px;
+@media (max-width: 576px) {
+  .rec-timeline {
+    margin-top: -0.25rem;
+  }
+  .rec-timeline .rec-entry {
+    display: block;
+    padding-left: 6.5rem;
+  }
+  .rec-tags {
+    justify-content: flex-start;
+    margin-top: 0.25rem;
+  }
 }
 </style>
 
 <div class="rec-filters" id="recFilters">
-  <button class="tag-btn active" data-tag="all">All</button>
+  <button class="tag-btn active" data-tag="all" aria-pressed="true">All</button>
 </div>
 <div class="rec-count" id="recCount"></div>
-<div id="recList"></div>
+<div class="rec-timeline" id="recList" aria-live="polite"></div>
 
-<script src="/assets/js/recommendations.js"></script>
+<script src="/assets/js/recommendations.js?v=20260904-2"></script>
