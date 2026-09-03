@@ -80,11 +80,8 @@ function initRecommendations() {
         + '<ul class="rec-year-list">';
 
       byYear[year].forEach(function (r) {
-        var tagHtml = "";
-        r.tags.forEach(function (t) { tagHtml += '<span class="rec-tag">' + t + "</span>"; });
         html += '<li class="rec-entry">'
           + '<a class="rec-title" href="' + r.url + '" target="_blank" rel="noopener noreferrer">' + r.title + '</a>'
-          + '<span class="rec-tags">' + tagHtml + '</span>'
           + '</li>';
       });
 

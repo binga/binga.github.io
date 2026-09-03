@@ -50,6 +50,7 @@ A curated list of articles and essays I find worth reading.
   left: 77px;
   width: 4px;
   background-color: var(--timeline-color);
+  z-index: 1;
 }
 .rec-year-group {
   position: relative;
@@ -104,7 +105,7 @@ A curated list of articles and essays I find worth reading.
   background-color: var(--timeline-node-bg);
   box-shadow: 0 0 3px 0 #c2c6cc;
   transform: translateY(-50%);
-  z-index: 1;
+  z-index: 2;
 }
 .rec-timeline a.rec-title {
   min-width: 0;
@@ -119,20 +120,6 @@ A curated list of articles and essays I find worth reading.
   color: var(--link-color);
   border-bottom: none;
 }
-.rec-tags {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-.rec-tag {
-  font-size: 0.73rem;
-  padding: 2px 8px;
-  border-radius: 12px;
-  background: var(--btn-border-color, #e9ecef);
-  color: var(--text-color);
-  white-space: nowrap;
-}
 @media (max-width: 576px) {
   .rec-timeline {
     margin-top: -0.25rem;
@@ -140,10 +127,6 @@ A curated list of articles and essays I find worth reading.
   .rec-timeline .rec-entry {
     display: block;
     padding-left: 6.5rem;
-  }
-  .rec-tags {
-    justify-content: flex-start;
-    margin-top: 0.25rem;
   }
 }
 </style>
@@ -154,4 +137,4 @@ A curated list of articles and essays I find worth reading.
 <div class="rec-count" id="recCount"></div>
 <div class="rec-timeline" id="recList" aria-live="polite"></div>
 
-<script src="/assets/js/recommendations.js?v=20260904-2"></script>
+<script src="/assets/js/recommendations.js?v=20260904-3"></script>
