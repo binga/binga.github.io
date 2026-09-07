@@ -3,7 +3,7 @@ layout: post
 title: "Data Science Hackathon -- DataMeet Mumbai"
 date: 2015-08-15
 author: ps
-categories: [Origins, Competitive Machine Learning]
+categories: [Competitive Machine Learning]
 tags: [competitive-ml]
 ---
 

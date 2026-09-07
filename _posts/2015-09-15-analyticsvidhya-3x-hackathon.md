@@ -3,7 +3,7 @@ layout: post
 title: "Analytics Vidhya 3.X Hackathon"
 date: 2015-09-15
 author: ps
-categories: [Origins, Competitive Machine Learning]
+categories: [Competitive Machine Learning]
 tags: [competitive-ml]
 ---
 

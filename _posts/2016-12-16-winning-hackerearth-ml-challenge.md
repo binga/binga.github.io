@@ -3,7 +3,7 @@ layout: post
 title: "Winning the HackerEarth Machine Learning Challenge"
 date: 2016-12-16
 author: ps
-categories: [Origins, Competitive Machine Learning]
+categories: [Competitive Machine Learning]
 tags: [competitive-ml]
 ---
 

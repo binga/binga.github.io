@@ -3,7 +3,7 @@ layout: post
 title: "Winning two Machine Learning Challenges in the same month"
 date: 2017-03-30
 author: ps
-categories: [Origins, Competitive Machine Learning]
+categories: [Competitive Machine Learning]
 tags: [competitive-ml]
 ---
 
