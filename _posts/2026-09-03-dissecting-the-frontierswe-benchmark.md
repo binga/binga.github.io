@@ -6,7 +6,7 @@ published: true
 author: ps
 slug: dissecting-the-frontierswe-benchmark
 description: "What FrontierSWE gets right about evaluating long-horizon software engineering and AI research agents—and where it can improve."
-categories: [Applied AI, Agents and Evaluation]
+categories: [Applied AI, Benchmarks]
 tags: [agents, benchmarks, evals, software-engineering, ai-research]
 ---
 
